@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+gem "jbuilder"
+
+gem "simple_form", github: "heartcombo/simple_form"
+gem "sassc-rails"
 
 gem "autoprefixer-rails"
 
@@ -12,6 +16,7 @@ gem "simple_form", github: "heartcombo/simple_form"
 
 gem "sassc-rails"
 
+gem "typedjs-rails", "~> 2.0.9"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
